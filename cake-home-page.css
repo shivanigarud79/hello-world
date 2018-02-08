@@ -1,0 +1,38 @@
+.{
+padding: 0;
+margin: 0;
+}
+
+.div-sub-sub{
+text-align: center;
+}
+
+ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #d9b5b3;
+}
+
+li {
+float: left;
+}
+
+li a {
+display: block;
+color:  #726540;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+li a:hover{
+color: #a28f5c;
+}
+
+.logo img{
+    margin: auto;
+    display: block;
+    position: absolute;
+}

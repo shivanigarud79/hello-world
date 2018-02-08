@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JS OBJECTS with new</title>    
+        <link href="signup_login.css" rel="stylesheet">
+    </head>
+    <body>
+<!--
+        <div id="head">
+       <div id="log">
+       </div>
+       <div id="log1">
+          <form>
+              <table>
+                  <tr>
+                      <td>Username:</td>
+                      <td>Password:</td>
+                  </tr>
+                  <tr>
+                      <td><input type="text" name="username"></td>
+                      <td><input type="password" name="password"></td>
+                      <td><button type="button" id="login" onclick="check1()">LOGIN</button></td>    
+                  </tr>
+              </table>
+            </form> 
+       </div>
+    </div>
+-->
+
+        <div id="form1">
+        <div id="container">
+            <form method="post" action="signup_login.html">
+                <table>
+           <div>
+                <h2 id="wel">WELCOME TO THE WORLD OF CAKES!!</h2>
+               <tr>
+                   <td>First Name:<input type="text" id="firstname"><br/><br/></td>
+                   <td>Last Name: <input type="text" id="lastname"><br/><br/></td>
+               </tr>
+           </div>
+            <div id="yo">
+                <div id="clearfix">        
+                    <tr>
+                        <td>Phone Number: <input type="tel" id="phnnum"><br/><br/></td>
+                        <td>Confirm Password <input type="password" id="conf_password"><br/><br/></td>
+                    </tr>
+                </div>
+                <div id="outside-div">
+                    <tr>
+                        <td>Username: <input type="text" id="username"><br/><br/></td>
+                        <td>Password <input type="password" id="password"><br/><br/></td>
+                    </tr>
+                </div>
+            </div>
+                </table>
+            </form>
+            
+        <button type="button" class="button" onclick="check()">CREATE AN ACCOUNT</button>
+        </div>
+        </div>
+    <script>
+            function check(){
+           var firstname=document.getElementById("firstname").value;
+                var lastname=document.getElementById("lastname").value;
+                var phnnum=document.getElementById("phnnum").value;
+                var username=document.getElementById("username").value;
+                var password=document.getElementById("password").value;
+                var conf_password=document.getElementById("conf_password").value;
+                    if(firstname=="")
+                            alert("Please fill firstname");
+                    if(/\d/g.test(firstname)==true){
+                        alert("First name should not have digits!");
+                    }
+                    if(/\W/g.test(firstname)==true){
+                        alert("First name should not have special characters!");
+                    }
+                    if(lastname=="")
+                            alert("Please fill lastname");
+                    if(/\d/g.test(lastname)==true){
+                        alert("Last name should not have digits!");
+                    }
+                    if(/\W/g.test(lastname)==true){
+                        alert("Last name should not have specail characters!");
+                    }
+                    if(phnnum=="")
+                            alert("Please fill Mobile num");
+                    if(/\d{10}/g.test(phnnum)==false){
+                        alert("Phone number should be 10 digits!");
+                    }
+                    if(/\s/g.test(phnnum)==true){
+                        alert("Phone number should have no space");
+                    }
+                    if(/[a-z]/g.test(phnnum)==true){
+                        alert("Phone number should not have characters!");
+                    }
+                    if(username=="")
+                        alert("Please fill username");
+                    if(password=="")
+                            alert("Please fill password");
+                    if(conf_password=="")
+                            alert("Please fill confirm password");
+                    if(password!=conf_password)
+                            alert("Password not matched!!");
+            }
+        function check1(){
+        var username=document.getElementById("username").value;
+                var password=document.getElementById("password").value;
+                if(username=="")
+                        alert("Please fill username");
+                    if(password=="")
+                            alert("Please fill password");
+        }
+        </script>
+    </body>
+</html>
+
+<?php
+$conn =mysql_connect("localhost","root","") or die(mysql_error());
+$db =mysql_select_db( 'cakemeaway',$conn) or die(mysql_error());
+?>

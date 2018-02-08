@@ -1,0 +1,96 @@
+body{
+    background: #333 url('back.jpg') no-repeat;
+    background-size: cover;
+    color: brown;
+}
+#head{
+    height: 80px;
+    background-color: #d9b5b3;
+}
+#log1{
+    float: right;
+    padding-top: 20px;
+color:  #726540;
+}
+#log{
+    float: left;
+}
+#pass{
+    float: left;
+}
+#login {
+    border: none; /* Remove borders */
+    color:  #726540;/* Add a text color */
+    padding: 02px 20px; /* Add some padding */
+    cursor: pointer; /* Add a pointer cursor on mouse-over */
+}
+
+#success {background-color: #4CAF50;} /* Green */
+#success:hover {background-color: #46a049;}
+h2{
+  color:  #726540;
+  font-size: 40px;
+    
+}
+#wel{
+    color: firebrick;
+}
+#form1{
+    width: 500px;
+    height: 500px;
+    margin: 40px auto;
+    padding: 50px;
+    box-sizing: border-box;
+    background: url(imagesjs/tip2.jpg)top left repeat;
+    box-shadow: 0 10px 15px -8px #000;
+    border: 2px black;
+    -webkit-border-radius:5px;
+    text-align: center;
+}
+#signup{
+border: none; /* Remove borders */
+    color:  #726540;/* Add a text color */
+    padding: 02px 20px; /* Add some padding */
+    cursor: pointer; /* Add a pointer cursor on mouse-over */
+}
+.button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    padding-left: 40px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#container{
+    width: 400px;
+    height:250px;
+    //margin: 40px auto;
+    //padding: 50px;
+    //box-sizing: border-box;
+    //box-shadow: 0 10px 15px -8px black;
+    //border: 3px solid black;
+    text-align: center;    
+}
+#clearfix{
+    width: 150px;
+    margin: 20px;
+    float:right; 
+    box-sizing: border-box;
+    display: block;
+    color: firebrick;
+   // box-shadow:10px 10px 10px  #b3b3b3;
+}
+#outside-div{
+    width: 150px;
+    margin: 20px;
+    float:left; 
+    display: block;
+    color: firebrick;
+
+    //box-shadow:10px 10px 10px  #b3b3b3;
+}

@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<Cakeshop>
+  <Buy_now>
+    <Order>
+      <username>dhwani_manani</username>
+      <cake_id>kids_1</cake_id>
+      <kg>1</kg>
+      <phnnum>8097859590</phnnum>
+      <order_date>2017-11-13</order_date>
+      <address>Mumbai</address>
+      <message>Happy Birthday Dhwani</message>
+      <price>550</price>
+    </Order>
+    <Order>
+      <username>dhwani_manani</username>
+      <cake_id>kids_2</cake_id>
+      <kg>1</kg>
+      <phnnum>8097859590</phnnum>
+      <order_date>2017-11-14</order_date>
+      <address>Mumbai</address>
+      <message>Happy birthday Bijal</message>
+      <price>650</price>
+    </Order>
+    <Order>
+      <username>dhwani_manani</username>
+      <cake_id>kids_6</cake_id>
+      <kg>1</kg>
+      <phnnum>8097859590</phnnum>
+      <order_date>2017-11-08</order_date>
+      <address>Mumbai</address>
+      <message>HBD</message>
+      <price>670</price>
+    </Order>
+  </Buy_now>
+</Cakeshop>
